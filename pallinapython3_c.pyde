@@ -1,9 +1,12 @@
+## Prof.: Mancano i commenti e i nomi delle variabili non esprimono il loro significato: codice non  manutenibile
+
 x=10
 y=20
 a=80
 b=25
 c=80
 d=25
+## Prof.: non capisco questo conto
 recx2=(600/2)-40
 recy2=-1
 verx=1
@@ -17,6 +20,7 @@ ycer=(y+(larga/2))
 punt1=0
 punt2=0
 
+## Prof.: attenzione all'indentazione
 def setup():
             size(600,400)
 
@@ -53,7 +57,7 @@ def draw():
         
     if  x+alta/2>recx2 and x-alta/2<recx2+c and y-alta/2<=recy2+d:
         very=+1
-    
+## Prof.: così facendo si ha un incremento doppio    
     if y-alta/2==0:
         punt1+=1
         
